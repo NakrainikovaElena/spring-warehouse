@@ -1,6 +1,7 @@
 package com.nalmtal.WarehouseSpring;
 
 public class Food implements Storable {
+
     private String name;
 
     public Food(String name) {

@@ -1,6 +1,7 @@
 package com.nalmtal.WarehouseSpring;
 
 public class Tool implements Storable {
+
     private String name;
 
     public Tool(String name) {

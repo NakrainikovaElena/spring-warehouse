@@ -6,6 +6,7 @@ import java.util.List;
 
 @Component
 public class Warehouse {
+
     private final List<String> items = new ArrayList<>();
 
     public void addItem(String item) {

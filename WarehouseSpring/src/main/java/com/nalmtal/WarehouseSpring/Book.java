@@ -11,5 +11,4 @@ public class Book implements Storable {
     public void sendToWarehouse(Warehouse warehouse) {
         warehouse.addItem("Book: " + title);
     }
-
 }

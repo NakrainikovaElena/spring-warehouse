@@ -18,7 +18,7 @@ public class Main implements CommandLineRunner {
         Storable tool = new Tool("Hammer");
         Storable food = new Food("Apple");
 
-        // Отправляем на склад
+        // отправляем на склад
         book.sendToWarehouse(warehouse);
         tool.sendToWarehouse(warehouse);
         food.sendToWarehouse(warehouse);
